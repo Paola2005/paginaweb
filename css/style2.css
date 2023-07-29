@@ -1,0 +1,41 @@
+body{
+  background-color: #08254a;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #08254a;
+  padding: 150px;
+  text-align: left ; /* Centrar el texto a la izquierda */
+}
+.titulo {
+  color: #a6300c; /* Azul */
+  font-size: 90px;
+  font-weight: bold;
+}
+.descripcion {
+  color: #ffffff; /* Gris oscuro */
+  font-size: 30px;
+}
+
+
+.fo{
+    display: flex;
+    color: rgb(255, 77, 0);
+    justify-content: space-between;
+    margin: auto;
+
+}
+.nav-item:hover{
+  color: rgb(62, 30, 93);
+  font-size: 25px;
+  border-color: rgb(253, 0, 0);
+
+}
+
+
+
+
+  

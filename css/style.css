@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+}
+
+.fo{
+    display: flex;
+    color: rgb(255, 77, 0);
+    justify-content: space-between;
+}
+.container-fluid{
+    display: flex;
+    justify-content: flex-end; /* Alineamos el menú al lado derecho */
+    background-color: #333;
+
+  }
+.collapse .navbar-collapse{
+    background-color: #333;
+
+}
+.nav-item:hover{
+    color: rgb(232, 229, 235);
+    font-size: 24px;
+    border-color: rgb(253, 0, 0);
+  
+  }
+  
+  .navbar .navbar-expand-lg .bg-body-tertiary {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #333;
+  }
+  
+  
+  /* Estilos del toolbar para dispositivos móviles */
+  .navbar-toggle{
+    display: none; /* Ocultamos el toolbar por defecto en dispositivos móviles */
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+    .navbar-toggle{
+      display: flex; /* Mostramos el toolbar */
+      align-items: right;
+      justify-content: flex-end; /* Alineamos el toolbar al lado derecho */
+      background-color: #333;
+      color: #fff;
+    }
+    
