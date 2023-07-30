@@ -1,51 +1,32 @@
-body{
-    background-color: blue;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
-.fo{
-    display: flex;
-    color: rgb(255, 77, 0);
-    justify-content: space-between;
+.container {
+  display: flex;
+  align-items: center; /* Centrar verticalmente los elementos en el contenedor */
+  justify-content: center; /* Centrar horizontalmente los elementos en el contenedor */
+  height: 100vh; /* Altura del contenedor al 100% de la ventana */
 }
-.container-fluid{
-    display: flex;
-    justify-content: flex-end; /* Alineamos el menú al lado derecho */
-    background-color: #333;
 
-  }
-.collapse .navbar-collapse{
-    background-color: #333;
-
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; /* Espacio entre el botón y el texto */
 }
-.nav-item:hover{
-    color: rgb(232, 229, 235);
-    font-size: 24px;
-    border-color: rgb(253, 0, 0);
-  
-  }
-  
-  .navbar .navbar-expand-lg .bg-body-tertiary {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    margin-bottom: 20px;
-    background-color: #333;
-  }
-  
-  
-  /* Estilos del toolbar para dispositivos móviles */
-  .navbar-toggle{
-    display: none; /* Ocultamos el toolbar por defecto en dispositivos móviles */
-    cursor: pointer;
-    padding: 10px;
-  }
-  
-    .navbar-toggle{
-      display: flex; /* Mostramos el toolbar */
-      align-items: right;
-      justify-content: flex-end; /* Alineamos el toolbar al lado derecho */
-      background-color: #333;
-      color: #fff;
-    }
-    
+
+.custom-text {
+  font-size: 20px;
+  margin: 0;
+  background-color: #333; /* Eliminar márgenes predeterminados */
+}

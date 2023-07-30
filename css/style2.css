@@ -1,25 +1,89 @@
-body{
-  background-color: #08254a;
+body {
+  margin: 1%;
+  padding: 2%;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: rgb(6, 5, 64);
 }
 
-.container {
-  background-color: #08254a;
-  padding: 150px;
-  text-align: left ; /* Centrar el texto a la izquierda */
-}
-.titulo {
-  color: #a6300c; /* Azul */
-  font-size: 90px;
-  font-weight: bold;
-}
-.descripcion {
-  color: #ffffff; /* Gris oscuro */
-  font-size: 30px;
+.navbar {
+  background-color:rgb(6, 5, 64);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
+.navbar-header {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+  
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 1%;
+  padding: 1%;
+  
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li:last-child {
+  margin-right: 0;
+}
+
+.navbar-toggler {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  
+  }
+  .nav-item:hover{
+    color: rgb(120, 48, 17);
+    font-size: 30px;
+    border-color: rgb(253, 0, 0);
+    
+  
+  }
+  
+
+.content {
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none; 
+  }
+
+  .navbar-toggler {
+    display: block; /* Mostrar el toggler en pantallas pequeñas */
+    margin-right: none; /* Separación del contenido de la derecha */
+  }
+
+  .navbar-menu.show {
+    display: flex; /* Mostrar el menú cuando se active el toggler */
+    flex-direction: column;
+    background-color:rgb(75, 75, 119);
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    /* Posicionar el menú a la derecha en pantallas pequeñas */
+    z-index: auto; 
+  }
+
+  .navbar-menu.show li {
+    margin: 10px 0;
+  
+  }
+}
 
 .fo{
     display: flex;
@@ -28,14 +92,131 @@ body{
     margin: auto;
 
 }
-.nav-item:hover{
-  color: rgb(62, 30, 93);
-  font-size: 25px;
-  border-color: rgb(253, 0, 0);
 
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ /* Esto es opcional, es solo para ajustar la altura de la página */
+}
+
+.texto {
+  width: 50%;
+  text-align: left;
+}
+h1{
+  color: rgb(195, 76, 12);
+  font-size: 600%;
+  
+  
+}
+p{
+  color: #fff;
+  font-size: 200%;
+  
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .texto {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ab260f;
+  color: #fff;
+  border-radius: 0%;
+  border-color:  #ab260f;
+  cursor: pointer;
+  margin-right: 10px; /* Espacio entre el botón y el texto */
+}
+
+
+.image-wrapper {
+  flex: 1; /* Ocupar el espacio disponible */
+  display: flex;
+  justify-content: flex-end; /* Centrar horizontalmente el contenido al lado derecho */
+}
+
+img {
+  max-width: 100%; /* La imagen se ajustará al tamaño del contenedor */
+  max-height: 100%; /* La imagen se ajustará al tamaño del contenedor */
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Cambiar a una dirección vertical en pantallas pequeñas */
+    text-align: center; /* Centrar el contenido en pantallas pequeñas */
+  }
 }
 
 
 
+.container2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  /* Esto es opcional, es solo para ajustar la altura de la página */
+}
+.about{
+  color: #ab260f;
+}
 
+.texto2 {
+  width: 50%;
+  text-align: left;
+}
+.titulo2{
+  color: rgb(255, 255, 255);
+  font-size: 600%;
   
+}
+.parafo2{
+  color: #fff;
+  font-size: 200%;
+  
+}
+@media (max-width: 600px) {
+  .container2 {
+    flex-direction: column;
+  }
+  
+  .texto2 {
+    width: 100%;
+    text-align: center;
+  }
+}
+.custom-button2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ab260f;
+  color: #fff;
+  border-radius: 0%;
+  border-color:  #ab260f;
+  cursor: pointer;
+  margin-right: 10px; /* Espacio entre el botón y el texto */
+}
+
+.image-wrapper2 {
+  flex: 1; /* Ocupar el espacio disponible */
+  display: flex;
+  justify-content: flex-start; /* Centrar horizontalmente el contenido al lado derecho */
+}
+
+img {
+  max-width: 100%; /* La imagen se ajustará al tamaño del contenedor */
+  max-height: 100%; /* La imagen se ajustará al tamaño del contenedor */
+}
+@media screen and (max-width: 600px) {
+  .container2 {
+    flex-direction: column; /* Cambiar a una dirección vertical en pantallas pequeñas */
+    align-items: flex-end;
+  }
+}
+
