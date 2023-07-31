@@ -259,7 +259,7 @@ hr{
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  background-color: bisque;
+  background-color: #ffefe8;
 }
 
 .grid-item img {
@@ -383,7 +383,7 @@ input[type="checkbox"]:checked + .slider::before {
 }
 
 .rectangle {
-  background-color:#f6e8e0;
+  background-color:#ffefe8;
   border: 2px solid #333;
   color: black;
   border-radius: 8px;
@@ -486,6 +486,7 @@ footer {
 .contact-title {
   font-size: 24px;
   margin-bottom: 10px;
+  
 }
 
 .social-media {
@@ -509,13 +510,4 @@ footer {
 }
 .social-icon{
   background-color: #ff702a;
-}
-@media screen and (max-width: 768px) {
-  .contact-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  
 }
