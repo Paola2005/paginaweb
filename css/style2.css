@@ -478,6 +478,7 @@ footer {
   
 }
 
+
 .contact-container {
   text-align: center;
   padding: 20px;
@@ -510,4 +511,11 @@ footer {
 }
 .social-icon{
   background-color: #ff702a;
+}
+
+.nose{
+  width:50%;
+}
+.nosi{
+  width: 25%;
 }
