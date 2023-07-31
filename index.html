@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style2.css">
     <title>Tienda Online</title>
 </head>
@@ -23,33 +24,32 @@
               <a class="nav-link" href="#seccion2">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#seccion3">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
+              <a class="nav-link" href="#seccion4">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#seccion5">Contact</a>
             </li>
           </ul>
         </nav>
-        
-        
         <script>
           function toggleMenu() {
             var navbarMenu = document.getElementById('navbarMenu');
             navbarMenu.classList.toggle('show');
           }
           </script>
-      
     </div>
   </header>
+
+
   <div id="seccion1">
     <div class="container">
       <div class="texto">
-        <h1>Full website</h1>
-        <p>Foods the <br> most precius thing</p>
-        <button type="button" class="custom-button btn btn-primary btn-lg">Today's Menu</button>
+        <h1 class="title1">Full website</h1>
+        <p class="parre">Foods the <br> most precius thing</p>
+        <a href="#seccion2"><button type="button" class="custom-button btn btn-primary btn-lg">Today's Menu</button></a>
       </div>
       <div class="image-wrapper">
         <img src="images/home.png">
@@ -65,7 +65,7 @@
           <img src="images/about.png">
         </div>
         <div class="texto2">
-          <h4 class="about">About us</h4>
+          <h6 class="about">About us</h6>
           <h1 class="titulo2">We speak the good <br>food languaje</h1>
             <p class="parafo2">It is a long established fact that a  <br> be distracted by the readable content <br>looking at its layout. The point of</p>
           <button type="button" class="custom-button2 btn btn-primary btn-lg">Learn more</button>
@@ -75,20 +75,148 @@
 
     <hr size="8" color="orange">
 
-    <div id="seccion3">
-      <div class="container3">
-        <div class="texto3">
-          <h4 class="til">Food Menu</h4>
-          <h1 class="con">Fresh taste and grat price</h1>
+  <div id="seccion3"></div>
+    <h6 class="tilo">Food Menu</h6>
+    <h1 class="nos">Fresh taste and grat price</h1>
+    <br>
+  <div class="grid-container1">
+    <div class="grid-item">
+      <img src="images/food1.png" alt="Imagen 1">
+      <div class="description">
+        <h2 class="des1">Chicken Burger</h2>
+        <h6 class="des2">Tasty Food</h6>
+        <h6 class="des3">$11.00</h6>
+        <label class="toggler">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="images/food2.png" alt="Imagen 2">
+      <div class="description">
+        <h2 class="des1">Special Beef Burger</h2>
+        <h6 class="des2">Tasty Food</h6>
+        <h6 class="des3">$11.00</h6>
+        <label class="toggler">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="images/food3.png" alt="Imagen 3">
+      <div class="description">
+        <h2 class="des1">Chicken Fry Pack</h2>
+        <h6 class="des2">Tasty Food</h6>
+        <h6 class="des3">$11.00</h6>
+        <label class="toggler">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </div>
 
-        </div>
+  <hr size="8" color="orange">
+
+  <div id="seccion4"></div>
+    <h6 class="titu">Services</h6>
+    <h1 class="des">We provide best food services</h1>
+  <div class="grid-container2">
+    <div class="grid-item2">
+      <img src="images/s1.png" alt="Imagen 1">
+      <div class="description">
+        <h4 class="des4">Order</h4>
+        <h6 class="des5">It is a long established <br> 
+          be distracted by the readable <br>
+          looking at its layout. </h6>
+    
+      </div>
+    </div>
+    <div class="grid-item2">
+      <img src="images/s2.png" alt="Imagen 2">
+      <div class="description">
+        <h4 class="des4">Shipping</h4>
+        <h6 class="des5">It is a long established <br> 
+          be distracted by the readable <br>
+          looking at its layout. </h6>
       </div>
     </div>
 
+    <div class="grid-item2">
+      <img src="images/s3.png" alt="Imagen 3">
+      <div class="description">
+        <h4 class="des4">Dellvered</h4>
+        <h6 class="des5">It is a long established <br> 
+          be distracted by the readable <br>
+          looking at its layout. </h6>
       
+      </div>
+    </div>
+  </div>
 
+  <hr size="8" color="orange">
 
-
+  <div class="containerr">
+    <div class="rectangle">
+      <h1>We make quality food <br>
+        Everyday</h1>
+        <br>
+        <button type="button" class="custom-button2 btn btn-primary btn-lg">Learn more</button>
+    </div>
+  </div>
+  <hr size="8" color="orange">
+  <footer>
+    <div id="seccion5">
+      <div class="footer-menu">
+        <ul>
+          <li><h4><strong>Menu links</strong></h4></li>
+          <li><a href="#seccion1">Home</a></li>
+          <li><a href="#seccion2">About</a></li>
+          <li><a href="#seccion3">Menu</a></li>
+          <li><a href="#seccion4">Service</a></li>
+          <li><a href="#seccion5">Contact</a></li>
+        </ul>
+        <ul>
+          <li><h4><strong>Our Service</strong></h4></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Product Management</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul>
+        <ul>
+          <li><h4><strong>Information</strong></h4></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        <ul>
+          <li class="contact-title"><h4><strong>Contact Us</strong></h4></li>
+          <div class="contact-container">
+            <div class="social-media">
+              <a href="#" class="social-icon" >
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhVJREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGTu6Lxfb2/3vq/NW99Z3e7//M9zz3Oe89wWTY6WJtfXJgDGYgEmYwh+4Rbu4AIe1GOhXgf9cBgz8DkLPcE3jMZI9MBubMH3IqAygPjSa+iADTiOPwUF1ibAC8zDo9qcIoBeuJdUTMXzBkIYgTNoh+H4Up1fBHAO4zEOL9EH3fC0DlCA3McRrKwHMAk3sCyTh2U37zCghKZKvc3Ygem4VHlZ28E+LEVP/MAm7MzkGPbFOl10SjEEXXPLAB7iNeZkwiocyOcAPtpgHnE/YlQZwBvEDFZkQu+cw0eEbH82ADiEReheBvAsh7WwqlBIcS8OYk2DOQSd69GxDOB88j+h5ktP5jYHvwHYOekK1ZxCdBgReWMwuAxgew62L95WgbTHHqzGJ/55WEg3YlfeiT14j9NYXgYwMBdrG7YW8D0t6RqaZ78xM2UZ3J9Ia2lVW9GihRLC0MLkyiJoiEG+ShH0x12EV02pvlQL0CX5jH3Y2EAxleMofjkBY/tD5q1RCzAbZ7EY0X5s5W0cw9cawJjTEqxLZYVvNTS7/TnISq24MCit+HrSEa4aXjUxk27m9heaYm0H4SGReBVX8AFdMR+zEPING3mcnhUSDe5Lo038Mv9z1sVpTe/gL9I6cRkc/rZLAAAAAElFTkSuQmCC" alt="WhatsApp">
+              </a>
+              <a href="#" class="social-icon" >
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbpJREFUSEu11U+IjlEUx/HPlELGQjZCmo3FFMmSlCyEpCGzENlQyEImJQv5kyzUCAtmahY2ykLUTP6syELWlv6WCBsLiymK0Kn76un2PPd5X8zd3XvO+X3vufeec/vM8OibYX1tgNnYic1YhQH8wls8wwPcwfemjZYAW3AtiZYSfY1DeFjn1AQ4g9M9HN9PHMfFPKYOcBanehCvuh7FlepCDtiGqYL4ZxzDY7xLfqNpLaaRyXo86WhUAf14hUUNgB9YgReZvQoIU9hXdi6+CoiLGivs/iZ2V+wbsRabsCaL247JWKsC7mJrAXAS55N9GLcKvhM4kAM+YHEhaASXkz0u81LBN2pkdQ74ijn/CfAFC3LANOZlgE8tWYX7I2zI4kJrfg54ieWZ40csaamJ91ia+TzHYA64gT09ZhC96lvNBq5jXw7YhXiKTaOXS659prPwBssaCN0C/hxPnkHMo4Pe/wdAtPJ1eNrRqGt20ayO1EC6yeBc3ijrALE23qnECqgNcAEn8o2VPpy9qVoXpqAmQHSAg7hXd7RtX+Zc7MeO9DVeTSKHMYTbiCf5V19mS311Z27LoDuVgtdvdh5WGZl8sDgAAAAASUVORK5CYII=" alt="Facebook">
+              </a>
+              <a href="#" class="social-icon" >
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhZJREFUSEvF1UvIT1sYBvDfhyLCRGfkVigkOSeShAFSSnLJ3cQEZ6DIpchAiVxCRgYMJLdco5SYSUkk5XY60emUCSMycu/R+tdu9999X+rrW/Xvv/e73vU+z/s8a63doZtHRzfX12MAo7AFMzCBRiI/8Az3cAz/1hVp18EGHEcf/I8HeNUg5V+YhGH4gr9xsppbB5hcCr7AIrzuokfp8gaGYwqetNbVAa5iPsbivy4UX4s9+IB1eITrWNIEkKJhH5Dq6IW5GI9veIm7JXa7SDmiAAzByCaAjziLjZXq0fciptVAY+wpvMMfOI0oMA8DmgC+4zC2l4Qwv18YbcUd9C7MD5ZdMxPZTRkhsrTk/ArUPUjifuwsC5aVRfm/VOtgOS5gYTE40+eReIg1AoTZjjKf520YiE81gGj9Hnuxu8xF3lVV4u06yIHZXBYcKHINRvypjhbAPuwqE2ewpjOAo+UUZ0222+Wi65UaQJiGcVWivK/ozINqBy2TswUjVUzOCZ+DQ/gHs2omB7BfkwfROSzWV9gOLWZOb7NNV+JtJZ5tOhuRtK3Juazya3fQwmwBPuMWblaYt+o9xiCMaQII+8UY18WrotrURDzFOaxuAvgTYZHEGPymJkvTa4pfQ7yaWmq0lSjB1nUdgx8WSRL/iufoi9HF7MT7I7dw5jfhRJVF0xftdz44R9pd7z32yeyi9J2ndXsHPwHCfnMZO3GOhQAAAABJRU5ErkJggg==" alt="Instagram">
+              </a>
+              <a href="#" class="social-icon" >
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAexJREFUSEu11E2oTmEQB/DfVUoUJRILOxFRhAVZKB9RNlYWpGwIsaAosSGS2PnYSYqwkY1kRbJBpCx8LJCdbIh8RnObo+O557jveetOvXXeZ56Z/zz/+c8MGGEbGOH8+gEYhQ94hXu4jjtthTYBxNl+zMBufCqCA+BXcfYI2/CwBCoBxuMqVufF+1iO70XgFMzBQuzFZPzAJlyp3y0BnmJukewG1jdUXV2bgHPYgC+YjxeVswT43cLleWyp+T7ibfJ/GN9wERuzL8vaAD5jbAvIARxNX72QJ1iE0XiTdAVACGCIip5hdgvATaxN36Ts0wlMRQV+JL9PYU8TwOXkssR4jhV4VziC94iJaqPqpfn9AIubAEJqZ4skj7EytV8Cx0vepy++y/9DKJqePNYTzUK8oC9rGrSQ5bpatkMIpfRlTQAxPMFhZV9zoEIAdYvmnsQtXGhDb9tFp7G9FvQaq/Ayz2Jy7yLoCwv1HGwCaQMYkwtsUAlpMSPHcC1/84qEZ7AT/wzr/7ZpKCLkN7MD+ZewGT+rmOHWdeyZqDhk2qvFS3b0ChD3oohduSba1kgd/Hiu+8Gz4V5QD4zG7su9P67lObexpr55uwBUOSdiK5ZgAaalI4YxRBGb9q/1A9BrLzpT1Clxlyb3lbgK+gOFD1gZikZzPwAAAABJRU5ErkJggg==" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </ul>
+    </div>
+  </div>
+  </footer>
+  </body>
+</html>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
